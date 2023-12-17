@@ -799,7 +799,7 @@ M.launch=function()
 	
 	M.ticks=0;
 	M.lastTickDrawn=0;
-	M.secondsPerTick=60;//1 tick every minute
+	M.secondsPerTick=30;//1 tick every minute
 	M.tick=function()
 	{
 		var dragonBoost=Game.auraMult('Supreme Intellect');
